@@ -1,17 +1,14 @@
-// Pessoa.java
 public abstract class Pessoa {
     private String cpf;
     private String nome;
     private int idade;
 
-    // Construtor
     public Pessoa(String cpf, String nome, int idade) {
         this.cpf = cpf;
         this.nome = nome;
         this.idade = idade;
     }
 
-    // Getters e Setters
     public String getCpf() {
         return cpf;
     }
@@ -36,7 +33,6 @@ public abstract class Pessoa {
         this.idade = idade;
     }
 
-    // Método para incrementar a idade
     public void fazerAniversario() {
         this.idade++;
     }

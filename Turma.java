@@ -26,7 +26,7 @@ public class Turma {
     }
 
     public void listarAlunos() {
-        System.out.println("Alunos na turma de código:" + codigo + " (" + disciplina.getNome() + "):");
+        System.out.println("Alunos na turma de código:" + codigo + " (" + disciplina.getNome() + "-" + disciplina.getCodigo() +"):");
         for (Aluno aluno : alunos) {
             System.out.println("Nome: " + aluno.getNome() + ", Idade: " + aluno.getIdade());
         }

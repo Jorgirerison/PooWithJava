@@ -1,17 +1,14 @@
-// Disciplina.java
 public class Disciplina {
     private String codigo;
     private String nome;
     private int semestre;
 
-    // Construtor
     public Disciplina(String codigo, String nome, int semestre) {
         this.codigo = codigo;
         this.nome = nome;
         this.semestre = semestre;
     }
 
-    // Getters e Setters
     public String getCodigo() {
         return codigo;
     }
